@@ -1,0 +1,6 @@
+html {
+    background-image: url("../../static/img/crockpot-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+}

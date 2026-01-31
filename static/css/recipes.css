@@ -1,0 +1,6 @@
+html { 
+    background-image: url("../../static/img/recipes-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+}

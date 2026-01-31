@@ -1,0 +1,66 @@
+html {
+    background-color: rgb(48, 48, 48);
+    color: whitesmoke;
+}
+/* Update Cards */
+.update-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    height: 100px;
+    background-color: rgba(172, 50, 50, 0.5);
+    border-radius: 10px;
+}
+
+.update-card a:hover {
+    transform: scale(1.1) rotate(5deg) skew(5deg);
+    transition: transform .5s ease-in-out;
+    color: white;
+}
+
+/* Headings */
+
+h1 {
+    text-align: center;
+}
+
+/* Navigation bar */
+.nav-bar {
+    height: 50px;
+    background-color: purple;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar a {
+    color: gold;
+    text-decoration: none;
+}
+
+/* Site Message */
+.message {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.message:hover {
+    background: linear-gradient(45deg, orange, goldenrod, yellow);
+    border: 2px solid red;
+}

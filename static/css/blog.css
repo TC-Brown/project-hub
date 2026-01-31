@@ -1,0 +1,6 @@
+html {
+    background: linear-gradient(45deg, red, black, green);
+    border-color: yellow;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
