@@ -1,6 +1,66 @@
-html {
-    background: linear-gradient(45deg, red, black, green);
-    border-color: yellow;
-    background-attachment: fixed;
-    color: whitesmoke;
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Tile container for blog post */
+.post-container {
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 0px;
+    border-radius: 42px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+    background: linear-gradient(-45deg, #a0d2eb, #8458b3);
+}
+/* Header style */
+.post-header {
+    border-bottom: 2px solid #a28089;
+    background-color: #8458b3;
+    color: #e5eaf5;
+    text-align: center;
+    width: 100%;
+    height: 42px;
+    align-content: center;
+    transform: translateY(-20px);
+}
+
+.post-img {
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post {
+    margin: 25px;
+    background-color: #e5eaf5;
+    padding: 10px;
+    line-height: 20px;
+    color: black;
+    
+}
+/* Button style */
+#read-more-btn {
+    border: none;
+    font-weight: bold;
+    background-color: #a0d2eb;
+    color: #8458b3;
+    height: 45px;
+    font-size: large;
+}
+
+#read-more-btn:hover {
+    background-color: #d0bdf4;
+}
+
+#read-more-btn:active {
+    background-color: #e5eaf5;
+}
+
+#read-more-btn:visited {
+    background-color: #8458b3;
+    color: #e5eaf5;
 }
