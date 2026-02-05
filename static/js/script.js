@@ -1,5 +1,5 @@
-var button = document.getElementById("read-more-btn");
+var button = document.getElementById("post-1");
 
-function viewPost() {
-    window.location.href = "temp/blog/blog-posts/post-1.html";
-}
+button.addEventListener("click", function () {
+    window.location.href = "/temp/blog/post/post-1.html";
+});

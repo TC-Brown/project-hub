@@ -63,7 +63,7 @@ h1 {
 }
 
 .nav-bar li:hover { 
-    transform: scale(1.3) translateX(-20px) rotate(365deg);
+    transform: scale(1.3) translateX(-20px) rotate(-5deg);
     transition: transform .5s ease-in-out;
 }
 
@@ -73,7 +73,7 @@ h1 {
 }
 
 .nav-bar a:hover {
-    color: rgb(98, 136, 84);
+    color: #d0bdf4;
 }
 
 /* Site Message */
