@@ -1,5 +1,7 @@
 var button = document.getElementById("post-1");
 
-button.addEventListener("click", function () {
-    window.location.href = "project-hub/temp/blog/post/post-1.html";
-});
+if (button) {
+    button.addEventListener("click", function () {
+        window.location.href = "post/post-1.html";
+    });
+}
