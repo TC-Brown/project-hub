@@ -37,7 +37,7 @@ main {
 }
 /* Header style */
 .post-header {
-    border-bottom: 2px solid #a28089;
+    border-bottom: 1px solid #a28089;
     background-color: #8458b3;
     color: #e5eaf5;
     text-align: center;
@@ -48,12 +48,13 @@ main {
 }
  /* Welcome Letter style */
  .welcome-letter {
-    border: 2px solid;
+    border: 1px solid;
     text-indent: 25px;
     line-height: 24px;
     padding: 12px;
     background-color: #e5eaf5;
     font-size: large;
+    border-radius: 10px;
  }
 
  /* Image style */
