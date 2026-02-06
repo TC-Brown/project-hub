@@ -10,7 +10,7 @@ html {
     flex-direction: column;
     border: 2px solid #a0d2eb;
     padding: 20px;
-    margin: 10px;
+    margin: 10px auto;
     text-align: center;
     height: 100px;
     background-color: #8458b3;
